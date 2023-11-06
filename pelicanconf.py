@@ -37,7 +37,7 @@ FIRST_NAME = 'Alberto Carrera'
 ##### Aggiunte #https://sammirabyan.github.io/build-with-pelican.html
 STATIC_PATHS = ['images', 'pdfs']
 
-#OUTPUT_PATH = 'output'
+OUTPUT_PATH = 'output'
 
 THEME = 'themes/brutalist' #Flex, brutalist
 
