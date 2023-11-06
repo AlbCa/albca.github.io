@@ -46,4 +46,4 @@ THEME = 'themes/brutalist' #Flex, brutalist
 #DOMAIN = SITEURL
 #FEED_DOMAIN = SITEURL
 #HTTPS = True
-
+#GITHUB_URL = 'https://github.com/AlbCa/'
