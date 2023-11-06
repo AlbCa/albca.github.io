@@ -42,8 +42,8 @@ OUTPUT_PATH = 'output/'
 THEME = 'themes/brutalist' #Flex, brutalist
 
 # Host on GitHub
-SITEURL = 'https://albca.github.io'
-DOMAIN = SITEURL
-FEED_DOMAIN = SITEURL
-HTTPS = True
+#SITEURL = 'https://albca.github.io'
+#DOMAIN = SITEURL
+#FEED_DOMAIN = SITEURL
+#HTTPS = True
 
