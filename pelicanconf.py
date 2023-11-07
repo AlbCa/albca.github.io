@@ -8,7 +8,6 @@ TIMEZONE = 'Europe/Berlin'
 
 DEFAULT_LANG = 'Italian'
 
-
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -39,7 +38,7 @@ STATIC_PATHS = ['images', 'pdfs']
 
 OUTPUT_PATH = 'output/'
 
-THEME = 'themes/Flex' #Flex, brutalist
+THEME = 'pelican-themes/brutalist' #Flex
 
 # Host on GitHub
 #SITEURL = 'https://albca.github.io'
@@ -47,3 +46,6 @@ THEME = 'themes/Flex' #Flex, brutalist
 #FEED_DOMAIN = SITEURL
 #HTTPS = True
 #GITHUB_URL = 'https://github.com/AlbCa/'
+
+PLUGIN_PATHS = ['./pelican-plugins']
+PLUGINS = ['sitemap', 'post_stats']
