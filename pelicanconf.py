@@ -36,9 +36,9 @@ SITEDESCRIPTION = 'https://github.com/mc-buckets/brutalistpelican'
 ##### Aggiunte #https://sammirabyan.github.io/build-with-pelican.html
 STATIC_PATHS = ['images', 'pdfs']
 
-OUTPUT_PATH = 'output/'
+#OUTPUT_PATH = 'output/'
 
-THEME = 'pelican-themes/brutalist' #Flex
+THEME = 'themes/brutalist' #Flex
 
 # Host on GitHub
 #SITEURL = 'https://albca.github.io'
@@ -47,5 +47,5 @@ THEME = 'pelican-themes/brutalist' #Flex
 #HTTPS = True
 #GITHUB_URL = 'https://github.com/AlbCa/'
 
-PLUGIN_PATHS = ['./pelican-plugins']
-PLUGINS = ['sitemap', 'post_stats']
+#PLUGIN_PATHS = ['./pelican-plugins']
+#PLUGINS = ['sitemap', 'post_stats']
