@@ -1,7 +1,7 @@
 Title: Geophysics
-Slug: Geophysics
+Slug: geophysics
 Date: 2023-10-30
-Category: geophysics
+
 
 IceMemory Project 2022
 ![mypic2](../images/icememory.jpg)

@@ -1,7 +1,6 @@
 Title: Contact
-Slug: Contact
+Slug: contact
 Date: 2023-10-18
-Category: contact
 
 
 <alberto.geoexp@gmail.com>

@@ -39,7 +39,7 @@ STATIC_PATHS = ['images', 'pdfs']
 
 OUTPUT_PATH = 'output/'
 
-THEME = 'themes/notmyidea-cms' #Flex, brutalist
+THEME = 'themes/Flex' #Flex, brutalist
 
 # Host on GitHub
 #SITEURL = 'https://albca.github.io'
