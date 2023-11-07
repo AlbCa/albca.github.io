@@ -32,14 +32,14 @@ DEFAULT_PAGINATION = 5
 RELATIVE_URLS = True
 
 FIRST_NAME = 'Alberto Carrera'
-#SITEDESCRIPTION = 'https://github.com/mc-buckets/brutalistpelican'
+SITEDESCRIPTION = 'https://github.com/mc-buckets/brutalistpelican'
 
 ##### Aggiunte #https://sammirabyan.github.io/build-with-pelican.html
 STATIC_PATHS = ['images', 'pdfs']
 
 OUTPUT_PATH = 'output/'
 
-#THEME = 'themes/brutalist' #Flex, brutalist
+THEME = 'themes/notmyidea-cms' #Flex, brutalist
 
 # Host on GitHub
 #SITEURL = 'https://albca.github.io'
