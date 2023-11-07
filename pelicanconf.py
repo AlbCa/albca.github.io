@@ -34,9 +34,9 @@ FIRST_NAME = 'Alberto Carrera'
 SITEDESCRIPTION = 'https://github.com/mc-buckets/brutalistpelican'
 
 ##### Aggiunte #https://sammirabyan.github.io/build-with-pelican.html
-STATIC_PATHS = ['images', 'pdfs']
+STATIC_PATHS = ['images', 'pages', 'pdfs']
 
-#OUTPUT_PATH = 'output/'
+OUTPUT_PATH = 'output'
 
 THEME = 'themes/brutalist' #Flex
 
