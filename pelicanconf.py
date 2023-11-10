@@ -6,7 +6,7 @@ PATH = 'content'
 
 TIMEZONE = 'Europe/Berlin'
 
-DEFAULT_LANG = 'Italian'
+DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -50,4 +50,3 @@ THEME = 'themes/brutalist' #Flex
 #PLUGIN_PATHS = ['./pelican-plugins']
 #PLUGINS = ['sitemap', 'post_stats']
 
-TYPOGRIFY = True
