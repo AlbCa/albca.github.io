@@ -3,7 +3,7 @@ Author: Alberto Carrera
 
 I’m first and foremost a nature and outdoor enthusiast.
 
-I am a professional geologist and geophysicist based in Brescia, Italy.
+I am a geophysicist and professional geologist based in Brescia, Italy.
 
 I am a PhD student in applied geophysics at the University of Padova.
 
