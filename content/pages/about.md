@@ -1,7 +1,6 @@
 Title: About
-Slug: Bio
+Slug: about
 Date: 2023-08-30
-Category: about
 
 I’m first and foremost a nature and outdoor enthusiast.
 

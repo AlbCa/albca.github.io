@@ -1,7 +1,6 @@
-Title: Pubblicazioni
-Slug: Publications
+Title: Publications
+Slug: publications
 Date: 2023-10-18
-Category: publications
 
 2019
 

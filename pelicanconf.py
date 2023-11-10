@@ -8,7 +8,6 @@ TIMEZONE = 'Europe/Berlin'
 
 DEFAULT_LANG = 'Italian'
 
-
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -32,14 +31,14 @@ DEFAULT_PAGINATION = 5
 RELATIVE_URLS = True
 
 FIRST_NAME = 'Alberto Carrera'
-#SITEDESCRIPTION = 'https://github.com/mc-buckets/brutalistpelican'
+SITEDESCRIPTION = 'https://github.com/mc-buckets/brutalistpelican'
 
 ##### Aggiunte #https://sammirabyan.github.io/build-with-pelican.html
-STATIC_PATHS = ['images', 'pdfs']
+STATIC_PATHS = ['images', 'pages', 'pdfs']
 
-OUTPUT_PATH = 'output/'
+OUTPUT_PATH = 'output'
 
-THEME = 'themes/brutalist' #Flex, brutalist
+THEME = 'themes/brutalist' #Flex
 
 # Host on GitHub
 #SITEURL = 'https://albca.github.io'
@@ -47,3 +46,6 @@ THEME = 'themes/brutalist' #Flex, brutalist
 #FEED_DOMAIN = SITEURL
 #HTTPS = True
 #GITHUB_URL = 'https://github.com/AlbCa/'
+
+#PLUGIN_PATHS = ['./pelican-plugins']
+#PLUGINS = ['sitemap', 'post_stats']

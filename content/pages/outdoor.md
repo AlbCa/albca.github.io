@@ -1,7 +1,6 @@
 Title: Outdoor
-Slug: Outdoor
+Slug: outdoor
 Date: 2023-10-30
-Category: outdoor
 
 I love being outdoor
 
