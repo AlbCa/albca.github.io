@@ -24,6 +24,9 @@ AUTHOR_FEED_RSS = None
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
+#STRAVA = 'https://www.strava.com/athletes/27234301'
+GITHUB = 'https://github.com/AlbCa/'
+LINKEDIN = 'https://www.linkedin.com/in/alberto-carrera-a960b6156/'
 
 DEFAULT_PAGINATION = 5
 
@@ -45,8 +48,9 @@ THEME = 'themes/brutalist' #Flex
 #DOMAIN = SITEURL
 #FEED_DOMAIN = SITEURL
 #HTTPS = True
-#GITHUB_URL = 'https://github.com/AlbCa/'
 
 #PLUGIN_PATHS = ['./pelican-plugins']
-#PLUGINS = ['sitemap', 'post_stats']
+# PLUGINS
+#PLUGIN_PATHS = ['plugins']
+#PLUGINS = ['sitemap', 'category_order', 'w3c_validate', 'optimize_images', 'gzip_cache']
 
