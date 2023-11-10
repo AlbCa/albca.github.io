@@ -1,6 +1,5 @@
 Title: About
-Slug: about
-Date: 2023-08-30
+Author: Alberto Carrera
 
 I’m first and foremost a nature and outdoor enthusiast.
 
