@@ -49,3 +49,5 @@ THEME = 'themes/brutalist' #Flex
 
 #PLUGIN_PATHS = ['./pelican-plugins']
 #PLUGINS = ['sitemap', 'post_stats']
+
+TYPOGRIFY = True
