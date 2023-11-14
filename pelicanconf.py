@@ -24,9 +24,9 @@ AUTHOR_FEED_RSS = None
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
-#STRAVA = 'https://www.strava.com/athletes/27234301'
+STRAVA = 'https://www.strava.com/athletes/50890324'
 GITHUB = 'https://github.com/AlbCa/'
-LINKEDIN = 'https://www.linkedin.com/in/alberto-carrera-a960b6156/'
+#LINKEDIN = 'https://www.linkedin.com/in/alberto-carrera-a960b6156/'
 
 DEFAULT_PAGINATION = 5
 
@@ -42,6 +42,8 @@ STATIC_PATHS = ['images', 'pages', 'pdfs']
 OUTPUT_PATH = 'output'
 
 THEME = 'themes/brutalist' #Flex
+ATTRIBUTION = True
+#SITEIMAGE = 'site-cover.jpg'
 
 # Host on GitHub
 #SITEURL = 'https://albca.github.io'
