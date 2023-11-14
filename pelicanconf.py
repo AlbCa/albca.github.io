@@ -7,7 +7,7 @@ USE_FOLDER_AS_CATEGORY = True
 DISPLAY_CATEGORIES_ON_MENU = True
 
 # Pages
-DISPLAY_PAGES_ON_MENU = True
+DISPLAY_PAGES_ON_MENU = False
 
 PATH = 'content'
 STATIC_PATHS = ['images', 'pdfs']
@@ -28,12 +28,12 @@ THEME = 'themes/brutalist'
 #SITEIMAGE = 'site-cover.jpg'
 #SITEDESCRIPTION = 'A simple, accessible, content-first Pelican theme inspired by David Bryant Copeland\'s https://brutalist-web.design/'
 ## path to logo for nav menu (optional)
-#LOGO = 'pelly.png'
+LOGO = 'aclogo.png'
 ## first name for nav menu if logo isn't provided
 FIRST_NAME = 'Geoexp - Alberto Carrera'
 ## Toggle display of theme attribution in the footer (scroll down and see)
 ## Attribution is appreciated but totally fine to turn off!
-ATTRIBUTION = True
+#ATTRIBUTION = True
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
@@ -44,7 +44,7 @@ GITHUB = 'https://github.com/AlbCa/'
 
 # PLUGINS
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ['sitemap', 'category_order', 'w3c_validate', 'optimize_images', 'gzip_cache']
+PLUGINS = ['sitemap', 'optimize_images', 'gzip_cache']
 
 ## SITEMAP PLUGIN
 SITEMAP = {
@@ -61,7 +61,12 @@ SITEMAP = {
     },
 }
 
-
+MENUITEMS = [
+    ('geophysics', '/pages/geophysics.html'),
+    ('outdoor', '/pages/outdoor.html'),
+    ('publications', '/pages/publications.html'),
+    ('contact', '/pages/contact.html'),
+    ]
 
 # Host on GitHub
 #SITEURL = 'https://albca.github.io'
