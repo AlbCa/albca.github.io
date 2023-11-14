@@ -14,4 +14,4 @@ Dott. Geol. Alberto Carrera
 via A. Chiappa, 13  
 25135 - Brescia (BS)  
  
-![mypic0](../images/fatmap.jpg)
+![mypic1](../images/fatmap.png)

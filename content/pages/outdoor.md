@@ -4,8 +4,8 @@ Date: 2023-10-30
 
 I love being outdoor
 
-![mypic1](../images/redival.jpg)
+![mypic3a](../images/redival.jpg)
 
-![mypic1a](../images/biketrip.jpg)
+![mypic3b](../images/biketrip.jpg)
 
-![mypic1a](../images/calanques.jpg)
+![mypic3c](../images/calanques.jpg)
