@@ -10,5 +10,7 @@ Date: 2023-10-30
 ![mypic2b](../images/agripolis.jpg)
 ![mypic2c](../images/st1T0.png)
 
-How a dipole-dipole sequence works
+
+
+This is how a dipole-dipole sequence works
 ![mypic2d](../images/dd.gif)
