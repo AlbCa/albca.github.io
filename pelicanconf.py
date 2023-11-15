@@ -41,6 +41,8 @@ SOCIAL = (('You can add links in your config file', '#'),
 STRAVA = 'https://www.strava.com/athletes/50890324'
 GITHUB = 'https://github.com/AlbCa/'
 INSTAGRAM = 'https://www.instagram.com/_herbee/'
+TWITTER = '/404.html'
+TELEGRAM = '/404.html'
 
 # PLUGINS
 PLUGIN_PATHS = ['plugins']
