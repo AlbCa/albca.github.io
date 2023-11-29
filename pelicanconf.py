@@ -43,6 +43,7 @@ GITHUB = 'https://github.com/AlbCa/'
 INSTAGRAM = 'https://www.instagram.com/_herbee/'
 TWITTER = '/404.html'
 TELEGRAM = '/404.html'
+SOUNDCLOUD = 'https://soundcloud.com/user-566745693-553834459/aert-1621'
 
 # PLUGINS
 PLUGIN_PATHS = ['plugins']
