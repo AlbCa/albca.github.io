@@ -14,22 +14,31 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    # Aggiungi il token GitHub come credenziale per il push
+    # Impostazione del token per GitHub
     - name: Set up GitHub Token
       run: git config --global user.name "github-actions[bot]" && git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-    # Aggiungi un pull per integrare le modifiche remote nel ramo gh-pages
+    # Installazione di Pelican e delle dipendenze
+    - name: Install Pelican and dependencies
+      run: |
+        python -m venv venv
+        source venv/bin/activate
+        pip install pelican ghp-import
+
+    # Pull delle modifiche dal ramo gh-pages
     - name: Pull latest changes from gh-pages branch
       run: |
         git fetch origin
         git checkout gh-pages
         git pull origin gh-pages
 
-    # Esegui la generazione del sito Pelican
+    # Genera il sito con Pelican
     - name: Build the site
-      run: pelican content
+      run: |
+        source venv/bin/activate
+        pelican content
 
-    # Esegui il deploy con ghp-import e push delle modifiche nel ramo gh-pages
+    # Deploy su GitHub Pages
     - name: Deploy to GitHub Pages
       run: |
         ghp-import output -b gh-pages
