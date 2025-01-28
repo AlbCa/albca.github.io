@@ -1,32 +1,36 @@
 name: Deploy Pelican site to GitHub Pages
-
 on:
   push:
-    branches: ["main"]
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout the repository
-        uses: actions/checkout@v3
+    # Checkout del codice
+    - name: Checkout code
+      uses: actions/checkout@v2
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: "3.9"
+    # Aggiungi il token GitHub come credenziale per il push
+    - name: Set up GitHub Token
+      run: git config --global user.name "github-actions[bot]" && git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install pelican markdown ghp-import
+    # Aggiungi un pull per integrare le modifiche remote nel ramo gh-pages
+    - name: Pull latest changes from gh-pages branch
+      run: |
+        git fetch origin
+        git checkout gh-pages
+        git pull origin gh-pages
 
-      - name: Build Pelican site
-        run: pelican content
+    # Esegui la generazione del sito Pelican
+    - name: Build the site
+      run: pelican content
 
-      - name: Deploy to GitHub Pages
-        run: |
-          ghp-import output -b gh-pages
-          git push origin gh-pages
+    # Esegui il deploy con ghp-import e push delle modifiche nel ramo gh-pages
+    - name: Deploy to GitHub Pages
+      run: |
+        ghp-import output -b gh-pages
+        git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} gh-pages --force
