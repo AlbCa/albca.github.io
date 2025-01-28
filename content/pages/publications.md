@@ -2,9 +2,6 @@ Title: Publications
 Slug: publications  
 Date: 2025-01-28  
 
-### 2025  
-
-_(nessuna pubblicazione disponibile per questo anno)_  
 
 ### 2024  
 
