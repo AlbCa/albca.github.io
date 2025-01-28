@@ -3,12 +3,12 @@ name: Deploy Pelican site to GitHub Pages
 on:
   push:
     branches:
-      - main  # trigger sul push del branch 'main'
-  workflow_dispatch:  # ti permette di eseguire il workflow manualmente
+      - main  # Trigger sul push del branch 'main'
+  workflow_dispatch:  # Ti permette di eseguire il workflow manualmente
 
 jobs:
   Deploy:
-    runs-on: ubuntu-latest  # Puoi usare anche 'windows-latest' o 'macos-latest' se preferisci
+    runs-on: ubuntu-latest  # Puoi usare anche 'windows-latest' o 'macos-latest'
 
     steps:
     - name: Checkout repository
@@ -31,4 +31,6 @@ jobs:
     - name: Deploy to GitHub Pages
       run: |
         ghp-import output  # Carica i file generati in 'output' su gh-pages
-        git push --force --set-upstream origin gh-pages  # Forza il push su gh-pages
+        git push --force --set-upstream https://github.com/${{ github.repository }}.git gh-pages  # Usa il token per fare il push
+      env:
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}  # Usa il token del secret per autenticarti
