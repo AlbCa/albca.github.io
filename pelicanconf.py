@@ -45,7 +45,7 @@ TELEGRAM = '/404.html'
 
 # PLUGINS
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ['sitemap', 'optimize_images', 'gzip_cache']
+PLUGINS = ['sitemap', 'gzip_cache']
 
 ## SITEMAP PLUGIN
 SITEMAP = {
