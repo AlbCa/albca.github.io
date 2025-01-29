@@ -6,7 +6,6 @@
     git config --global user.name "github-actions"
     git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git
     ghp-import -n -p -f output
-
 on:
   push:
     branches:
