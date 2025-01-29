@@ -1,4 +1,11 @@
-name: Deploy Pelican Site
+- name: Deploy to GitHub Pages
+  env:
+    GH_TOKEN: ${{ secrets.GH_PAT }}
+  run: |
+    git config --global user.email "github-actions@github.com"
+    git config --global user.name "github-actions"
+    git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git
+    ghp-import -n -p -f output
 
 on:
   push:
