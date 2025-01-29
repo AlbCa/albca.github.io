@@ -4,17 +4,29 @@ Date: 2025-01-28
 
 My research in applied geophysics aims to use and integrate electromagnetic and seismic techniques, with state-of-the-art python modeling capabilities, to understand and monitor structures and processes in the natural environment.  
 
-#### IceMemory Project 2022
-![mypic2a](../images/icememory.jpg)
+#### Patagonia expedition
+_Tierra del Fuego & Torres del Paine (CL) 2024_
+![mypic2](../images/pata1.jpg)
+![mypic2a](../images/pata2.jpg)  
+---
 
+#### IceMemory Project
+_Gran Sasso d'Italia (IT), 2022_
+![mypic2b](../images/icememory.jpg)  
+[Articolo UNIPD](https://www.geoscienze.unipd.it/la-missione-ice-memory-protagonista-di-una-puntata-di-tgr-leonardo)  
+[Articolo GDB](https://www.giornaledibrescia.it/brescia-e-hinterland/il-geologo-bresciano-che-cerca-carote-di-ghiaccio-con-lunga-memoria-henliiuc)
+---
 #### Agripolis
-![mypic2b](../images/agripolis.jpg)
-![mypic2c](../images/st1T0.png)
+_ Legnaro(PD)_
+![mypic2c](../images/agripolis.jpg)
+![mypic2d](../images/st1T0.png)
 
-
-
+---
 This is how a dipole-dipole sequence works
-![mypic2d](../images/dd.gif)
+![mypic2e](../images/dd.gif)
 
+---
 #### Sadole Rock Glacier
-![mypic2e](../images/sadole.gif)
+![mypic2f](../images/sadole.gif)
+
+---
