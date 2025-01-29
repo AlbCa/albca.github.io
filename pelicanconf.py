@@ -65,9 +65,9 @@ SITEMAP = {
 
 MENUITEMS = [
     ('geophysics', '/pages/geophysics.html'),
-    ('outdoor', '/pages/outdoor.html'),
     ('publications', '/pages/publications.html'),
     ('contact', '/pages/contact.html'),
+    ('outdoor', '/pages/outdoor.html'),
     ]
 
 # Host on GitHub

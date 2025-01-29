@@ -6,7 +6,7 @@ My research in applied geophysics aims to use and integrate electromagnetic and 
 
 #### Patagonia expedition
 _Tierra del Fuego & Torres del Paine (CL) 2024_
-![mypic2](../images/pata1.jpg)
+![mypic2](../images/pata1.jpg)  
 ![mypic2a](../images/pata2.jpg)  
 ---
 
@@ -17,7 +17,7 @@ _Gran Sasso d'Italia (IT), 2022_
 [Articolo GDB](https://www.giornaledibrescia.it/brescia-e-hinterland/il-geologo-bresciano-che-cerca-carote-di-ghiaccio-con-lunga-memoria-henliiuc)
 ---
 #### Agripolis
-_ Legnaro(IT), 2021-2024_
+_Legnaro(IT), 2021-2024_
 ![mypic2c](../images/agripolis.jpg)
 ![mypic2d](../images/st1T0.png)
 
@@ -27,7 +27,7 @@ This is how a dipole-dipole sequence works
 
 ---
 #### Sadole Rock Glacier
-_ Ziano di Fiemme (IT), 2023_
+_Ziano di Fiemme (IT), 2023_
 ![mypic2f](../images/sadole.gif)
 
 ---
