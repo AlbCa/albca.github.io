@@ -23,11 +23,13 @@ _Legnaro(IT), 2021-2024_
 
 ---
 This is how a dipole-dipole sequence works
-![mypic2e](../images/dd.gif)
+![mypic2e](../images/dd.gif)  
+and this is a brief acoustic signal processing
+![mypic2f](../images/hydromoth.png)  
 
 ---
 #### Sadole Rock Glacier
 _Ziano di Fiemme (IT), 2023_
-![mypic2f](../images/sadole.gif)
+![mypic2g](../images/sadole.gif)
 
 ---
