@@ -13,6 +13,7 @@ PATH = 'content'
 STATIC_PATHS = ['images', 'pdfs']
 TIMEZONE = 'Europe/Berlin'
 DEFAULT_LANG = 'en'
+INDEX_SAVE_AS = 'index.html' 
 #OUTPUT_PATH = 'output'
 DEFAULT_PAGINATION = 4
 

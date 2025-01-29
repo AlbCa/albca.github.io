@@ -2,7 +2,7 @@ Title: Geophysics
 Slug: geophysics
 Date: 2025-01-28
 
-_My research in applied geophysics aims to use and integrate electromagnetic and seismic techniques, with state-of-the-art python modeling capabilities, to understand and monitor structures and processes in the natural environment._  
+My research in applied geophysics aims to use and integrate electromagnetic and seismic techniques, with state-of-the-art python modeling capabilities, to understand and monitor structures and processes in the natural environment.  
 
 #### IceMemory Project 2022
 ![mypic2a](../images/icememory.jpg)

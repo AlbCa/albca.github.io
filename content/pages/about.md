@@ -1,5 +1,6 @@
 Title: Hi! That's Alberto
 Author: Alberto Carrera
+Slug: index
 save_as: index.html
 
 
