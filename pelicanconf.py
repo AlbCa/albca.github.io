@@ -67,7 +67,7 @@ MENUITEMS = [
     ('geophysics', '/pages/geophysics.html'),
     ('publications', '/pages/publications.html'),
     ('contact', '/pages/contact.html'),
-    ('outdoor', '/pages/outdoor.html'),
+    ('interests', '/pages/outdoor.html'),
     ]
 
 # Host on GitHub

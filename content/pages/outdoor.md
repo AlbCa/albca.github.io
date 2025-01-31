@@ -1,6 +1,6 @@
-Title: Outdoor
-Slug: interests
-Date: 2025-01-28
+Title: Something about me
+Slug: outdoor
+Date: 2025-01-28  
 
 I’m first and foremost a nature and outdoor enthusiast.  
 Here you find a few things I like to do 
